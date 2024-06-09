@@ -1,0 +1,1 @@
+This project was made as a part of a university course "Modeling and simulations" held at the Faculty of informatics in Pula. It uses the Monte Carlo simulation to predict future popularity of six of the biggest political parties in Germany at the time of creating the project.
