@@ -1,8 +1,14 @@
 library(readr)
 library(fitdistrplus)
 
-# Loading the data
-njem <- read_csv("D:\\Sebastijan\\modeliranje_projekt\\njem_podaci.csv")
+# Loading the data from the repository working directory (relative path)
+# Expect `njem_podaci.csv` to be in the project root or current working directory.
+data_path <- "njem_podaci.csv"
+if (!file.exists(data_path)) {
+  stop("Data file 'njem_podaci.csv' not found in the working directory.\n",
+       "Place 'njem_podaci.csv' in the project root or set your working directory accordingly.")
+}
+njem <- read_csv(data_path)
 njem <- as.data.frame(njem)
 njem$datum <- as.Date(njem$datum)
 str(njem)
