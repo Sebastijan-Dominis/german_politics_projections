@@ -3,12 +3,12 @@
 This repository contains a small R project that uses Monte Carlo simulation to project short-term popularity trends for six major German political parties. The work was created as part of the "Modeling and simulations" course at the Faculty of Informatics in Pula.
 
 ## Table of Contents
-[Overview](#overview)
-[Usage](#usage)
-[Output and results](#output-and-results)
-[Licence](#license)
-[Contributing](#contributing)
-[Author & Contact](#author--contact)
+- [Overview](#overview)
+- [Usage](#usage)
+- [Output and results](#output-and-results)
+- [Licence](#license)
+- [Contributing](#contributing)
+- [Author & Contact](#author--contact)
 
 ## Overview
 
